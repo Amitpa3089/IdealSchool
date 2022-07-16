@@ -1,0 +1,119 @@
+* {
+    /* padding: 0px;
+    margin: 0px; */
+    box-sizing: border-box;
+    font-family:"Open Sans", sans-serif;
+    font-style: normal;
+    
+}
+
+#topHeader {
+    background-color: #1a0227;
+}
+
+#topHeader a {
+    color: rgb(236, 244, 244);
+    font-size: 13px;
+    font-family: sans-serif;
+    padding: 7px;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+div .col{
+    padding-left: 85px;
+}
+#midHeader{
+    display: flex;
+    background-color: #efefef; 
+    margin: 0px;
+    padding: 15px;
+    /* border:2px solid #71239a; */
+    justify-content: center
+    }
+.headerLogo{
+    width:850px ;
+    height: auto;
+    vertical-align: middle; 
+    /* padding: 10px 20px;  */
+}
+.admissionForm{
+    font-style: normal;
+    text-align: center;
+    background-color: #FC4B07;
+    margin: 10px 10px 0px 20px; 
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 0px;
+    overflow-y: hidden;
+    height: 62px;
+}
+.admissionForm a{
+    color: white;
+        text-decoration: none;
+    font-family: sans-serif;
+}
+/* CSS FOR CAMPUS SECTION  */
+.campusBackground{
+    background: rgb(112 47 168);
+    
+}
+.containCampus{
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: justify;
+    }
+.styleCampus h5{
+    line-height: 2em;
+    color: #ffff;
+    font-weight: 550;
+    padding: auto;
+    font-size: 30px;
+}   
+.containCampus{
+    font-size: 14px;
+    padding: auto;
+    color: white;
+}
+.iframee{
+    border: 5px solid rgb(255, 255, 255);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255) !important;
+    padding-right: 30px;
+}
+#bottomHeader .nav-div{
+    padding-top: 0px ;  
+    padding-bottom: 0px; 
+}
+#bottomHeader .bottomContainer{
+    background-color: #1a0227;
+}
+
+/* END CSS FOR CAMPUS SECTION  */
+
+/* Start CSS FOR Facilities SECTION  */
+
+  #facilitiesContainer{
+    background-color: #ffc444;
+  } 
+  .styleFacilities h2{
+    padding: 60px 0px ;
+    color: white;
+    }
+.wrap-IMG-contain{
+    display:inline-block;
+}
+.backCircle{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.imgAircondi{
+    background-color: black;
+    border-radius: inherit;
+}
+.imgAircondi .parkingImg{
+    padding: 20px;
+    height: 85px;
+    width: 85px;
+}
