@@ -11,7 +11,7 @@
 
 }
 #content{
-    padding: 30px;
+    padding: 20px;
     margin-left: 10px;
     margin-top: 20px;
     margin-right: 10px;
@@ -26,17 +26,14 @@
     margin-top: 20px;
     background-color: white;
 }
-img{
-    border: 7px solid rgb(221, 221, 201);
-    margin: 20px;
-    
-}
 .activities1{
     width: 100%;
     height: auto;
     position: relative;
     left: -15px;
     right: 15px;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 20px;
     
 
 }
@@ -46,11 +43,12 @@ img{
    position: relative;
    left: -15px;
     right: 15px;
-    
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 20px;
 }
-.CCTV{
-    max-width: 400px;
+img{
+    margin-top: 40px;
     width: 100%;
     height: auto;
-    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

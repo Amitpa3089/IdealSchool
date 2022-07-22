@@ -1,40 +1,60 @@
-.Body{
+#Body{
     display: flex;
-   background-color: rgb(228, 228, 228);
+   background-color: #efefef;
    height: 100%;
    width: 100%;
-   padding: 20px;
+   padding-left: 50px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 30px;
+   
+
 }
-.content{
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-bottom: 20px;
+#content{
     padding: 30px;
-    padding-left: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
     background-color: white;
     color: black;
 }
-.content1{
+#content1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 45px;
+    margin-left: 10px;
     margin-top: 20px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    padding: 30px;
     background-color: white;
 }
 img{
     border: 7px solid rgb(221, 221, 201);
+    margin-top: 20px;
     
 }
-.activities{
-    width: 339;
-    height: 225;
-}
 .activities1{
-    width: 339;
-    height: 225;
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: -15px;
+    right: 15px;
+    
+
+}
+.activities2{
+   width: 100%;
+   height: auto;
+   position: relative;
+   left: -15px;
+    right: 15px;
 }
 .MathesImage{
-    margin-left: 14px;
-    margin-top: 15px;
-   
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.MathesImage1{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
 }

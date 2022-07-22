@@ -25,10 +25,9 @@
     margin-left: 10px;
     margin-top: 20px;
     background-color: white;
-}
-img{
+}img{
     border: 7px solid rgb(221, 221, 201);
-    margin: 20px;
+    margin-top: 20px;
     
 }
 .activities1{
@@ -46,11 +45,45 @@ img{
    position: relative;
    left: -15px;
     right: 15px;
-    
 }
-.CCTV{
-    max-width: 400px;
+.submit{
+    border: none;
+    background-color: #2a2367;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.table{
     width: 100%;
-    height: auto;
-    margin-top: 20px;
+    border: 1px solid black;
 }
+td th{
+    border: 1px solid black;
+   
+}
+table, th, td {
+    border: 1px solid;
+    
+  }
+.TableInput{
+    padding: 30px;
+}
+.table input{
+   width: 80%;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    
+  }
+tr:hover{
+    background-color: #f2f2f2;
+}  
+.Thead{
+    background-color: #D4DBE3;
+}
+label{
+    margin-top: 10px;
+}
+

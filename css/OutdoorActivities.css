@@ -47,11 +47,9 @@ img{
    left: -15px;
     right: 15px;
 }
-.SwimmingImage{
-    max-width: 300px;
+.OutdoorImage{
     width: 100%;
     height: auto;
-    margin-left: 14px;
     margin-top: 25px;
 }
 .OutdoorVideo{
@@ -59,4 +57,9 @@ img{
     height: 380px;
     margin-bottom: 30px;
     margin-top: 30px;
+}
+.OutdoorImage1{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
 }

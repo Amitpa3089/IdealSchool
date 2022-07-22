@@ -48,11 +48,8 @@ img{
     
 }
 .AC{
-    width: 100%;
     max-width: 400px;
+    width: 100%;
     height: auto;
-    position: relative;
-    margin-left: 45%;
-    margin-top: 12%;
-    transform: translate(-45%, -12%);
+    margin-top: 20px;
 }

@@ -28,7 +28,7 @@
 }
 img{
     border: 7px solid rgb(221, 221, 201);
-    margin: 20px;
+    margin-top: 20px;
     
 }
 .activities1{
@@ -46,11 +46,8 @@ img{
    position: relative;
    left: -15px;
     right: 15px;
-    
 }
-.CCTV{
-    max-width: 400px;
+.Achievements{
     width: 100%;
     height: auto;
-    margin-top: 20px;
 }

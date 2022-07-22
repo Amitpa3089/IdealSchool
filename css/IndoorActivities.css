@@ -49,9 +49,7 @@ img{
     
 }
 .indoor{
-    max-width: 300px;
     width: 100%;
     height: auto;
-   /* margin-left: 14px; */
-    margin-top: 25px;
+    margin-top: 20px;
 }
