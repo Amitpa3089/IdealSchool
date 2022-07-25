@@ -26,10 +26,6 @@
     margin-top: 20px;
     background-color: white;
 }
-img{
-    border: 7px solid rgb(221, 221, 201);
-    margin-top: 30px; 
-}
 .images{
     float: left;
     border: 7px solid rgb(221, 221, 201);
@@ -38,6 +34,8 @@ img{
     max-width: 270px;
     width: 100%;
     height: auto;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 25px;
 }
 .activities1{
     width: 100%;
@@ -45,6 +43,8 @@ img{
     position: relative;
     left: -15px;
     right: 15px;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 25px;
     
 
 }
@@ -54,5 +54,7 @@ img{
    position: relative;
    left: -15px;
     right: 15px;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 25px;
     
 }

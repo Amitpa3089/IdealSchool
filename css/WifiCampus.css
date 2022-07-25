@@ -26,7 +26,10 @@
     margin-top: 20px;
     background-color: white;
 }
-img{
+
+.activities{
+    width: 100%;
+    height: auto;
     border: 7px solid rgb(221, 221, 201);
     margin-top: 30px;
     position: relative;
@@ -35,11 +38,14 @@ img{
     
     
 }
-.activities{
-    width: 100%;
-    height: auto;
-}
 .activities1{
     width: 100%;
     height: auto;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 30px;
+    position: relative;
+    left: -15px;
+    right: 15px;
+    
+    
 }

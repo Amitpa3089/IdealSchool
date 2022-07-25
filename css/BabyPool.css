@@ -7,6 +7,7 @@
    padding-top: 20px;
    padding-bottom: 20px;
    padding-right: 30px;
+   margin: 0;
    
 
 }
@@ -36,6 +37,8 @@ img{
     position: relative;
     left: -15px;
     right: 15px;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 25px;
     
 
 }
@@ -45,10 +48,14 @@ img{
    position: relative;
    left: -15px;
     right: 15px;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 25px;
 }
 .pool{
     
     width: 100%;
     height: auto;
     margin-top: 20px;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 25px;
 }

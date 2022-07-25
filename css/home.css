@@ -1,0 +1,316 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+#topHeader {
+    background-color: #1a0227;
+}
+
+#topHeader a {
+    color: rgb(236, 244, 244);
+    font-size: 13px;
+    font-family: sans-serif;
+    padding: 7px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+div .col {
+    padding-left: 85px;
+}
+
+#midHeader {
+    display: flex;
+    background-color: #efefef;
+    margin: 0px;
+    padding: 15px;
+    /* border:2px solid #71239a; */
+    justify-content: center
+}
+
+.headerLogo {
+    width: 850px;
+    height: auto;
+    vertical-align: middle;
+    /* padding: 10px 20px;  */
+}
+
+.admissionForm {
+    font-style: normal;
+    text-align: center;
+    background-color: #FC4B07;
+    margin: 10px 10px 0px 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 0px;
+    overflow-y: hidden;
+    height: 62px;
+}
+
+.admissionForm a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+/* Start a navbar  */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255) !important;
+    padding-right: 30px;
+}
+
+#bottomHeader .nav-div {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#bottomHeader .bottomContainer {
+    background-color: #2a2367;
+}
+#navbarSupportedContent ul{
+    background-color: #2a2367;
+    margin: 0px;
+    border-style: none;
+    border-radius: inherit;
+    
+}
+ ul .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 200;
+    color: #ffffff;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #2a2367;
+    border: 0;
+    font-size: 12px;
+}
+#navbarDropdown .dropdown-menu{
+   
+    margin: 0px;
+    border-style: none;
+    border-radius: inherit;
+
+}
+
+/* end a navbar  */
+
+/* CSS FOR CAMPUS SECTION  */
+.campusBackground {
+    background: rgb(112 47 168);
+
+}
+
+.containCampus {
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.styleCampus h5 {
+    line-height: 2em;
+    color: #ffff;
+    font-weight: 550;
+    padding: auto;
+    font-size: 30px;
+}
+
+.containCampus {
+    font-size: 14px;
+    padding: auto;
+    color: white;
+}
+
+.iframee {
+    border: 5px solid rgb(255, 255, 255);
+}
+/* END CSS FOR CAMPUS SECTION  */
+
+/* Start CSS FOR Facilities SECTION  */
+
+#facilitiesContainer {
+    background-color: #ffc444;
+}
+
+.styleFacilities h2 {
+    padding: 60px 0px 30px 0px;
+    color: white;
+}
+
+/* making a circle */
+.wrap-IMG-contain {
+    display: inline-block;
+}
+
+.backCircle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.imgAircondi {
+    background-color: rgb(173, 23, 23);
+    border-radius: inherit;
+    /* end making a circle */
+}
+
+.imgAircondi .parkingImg {
+    padding: 20px;
+    height: 83px;
+    width: 83px;
+}
+
+.facilitiesIcon_color {
+    background-color: #022382;
+    border-radius: 50%;
+}
+
+.facilitiesIcon_color .facilities_Img {
+    padding: 20px;
+    height: 83px;
+    width: 83px;
+}
+
+.linkAir a .nameIcon h3 {
+    font-size: 17px;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+.linkAir a {
+    text-decoration: none;
+}
+
+.facilityRow {
+    padding: 20px;
+}
+
+/* END CSS FOR Facilities SECTION  */
+
+/* START CSS FOR Infrastructure SECTION  */
+#InfrastructureContainer {
+    background-color: #ff6d6d;
+}
+/* End CSS FOR Infrastructure SECTION  */
+
+/* START CSS FOR creativity SECTION  */
+#creativity {
+    background-image: url("https://idealinternationalindore.com/wp-content/uploads/2018/10/patternff.png");
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #ffc444;
+    background-attachment: fixed;
+    background-size: cover;
+    left: 0px;
+    width: 100%;
+}
+
+blockquote p {
+    font-size: 32px;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 20px;
+    text-align: justify;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+blockquote {
+    margin: 0px !important;
+    border-left: 5px solid #f2ba41;
+}
+
+.wrap_Creativity_content {
+    background-color: #ffc444;
+    margin: 0px 100px;
+}
+
+.schoolThought {
+    padding: 40px 0px;
+}
+@media screen and (max-width:1000px){
+#display{
+    display:contents;
+}
+}
+/* End CSS FOR creativity SECTION  */
+
+
+/* Start a footer */
+footer {
+    background-image: url("https://idealinternationalindore.com/wp-content/uploads/2018/10/patternff.png");
+    background-size: cover;
+    background-color: #1a0227;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #efefef;
+}
+
+/* End a footer  */
+
+ /* Start a whatapp section  */
+.float {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 10px;
+}
+
+.Msg {
+    position: fixed;
+    bottom: 30px;
+    right: 98px;
+    background-color: #393f3b;
+    color: #FFF;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    z-index: 100;
+    margin-left: 25px;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+ /* End a whatapp section  */
+.contentActivity{
+    background-color: #1a0227;
+}
+.headingActivity h2{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+}
+.Activity{
+    padding: 50px;
+}
+#photoGallery{
+    display: block;
+
+}
+#photoGallery .photoGallery{
+    display: block;    
+}

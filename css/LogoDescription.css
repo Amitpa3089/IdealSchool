@@ -7,6 +7,7 @@
    padding-top: 20px;
    padding-bottom: 20px;
    padding-right: 30px;
+   margin: 0;
    
 
 }
@@ -26,7 +27,7 @@
     margin-top: 20px;
     background-color: white;
 }
-img{
+.Logo{
     border: 7px solid rgb(221, 221, 201);
     margin-top: 30px;
     position: relative;
@@ -40,7 +41,8 @@ img{
     position: relative;
     left: -15px;
     right: 15px;
-    
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 30px;
 }
 .activities2{
     width: 100%;
@@ -48,7 +50,8 @@ img{
     position: relative;
     left: -15px;
     right: 15px;
-    
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 30px;
 }
 p{
     padding-top: 20px;

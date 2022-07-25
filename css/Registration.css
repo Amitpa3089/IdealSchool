@@ -25,10 +25,6 @@
     margin-left: 10px;
     margin-top: 20px;
     background-color: white;
-}img{
-    border: 7px solid rgb(221, 221, 201);
-    margin-top: 20px;
-    
 }
 .activities1{
     width: 100%;
@@ -36,6 +32,8 @@
     position: relative;
     left: -15px;
     right: 15px;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 20px;
     
 
 }
@@ -45,6 +43,9 @@
    position: relative;
    left: -15px;
     right: 15px;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 20px;
+    
 }
 .submit{
     border: none;

@@ -26,17 +26,16 @@
     margin-top: 20px;
     background-color: white;
 }
-img{
-    border: 7px solid rgb(221, 221, 201);
-    margin-top: 20px;
-    
-}
+
 .activities1{
     width: 100%;
     height: auto;
     position: relative;
     left: -15px;
     right: 15px;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 20px;
+    
     
 
 }
@@ -46,10 +45,15 @@ img{
    position: relative;
    left: -15px;
     right: 15px;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 20px;
     
 }
 .indoor{
     width: 100%;
     height: auto;
     margin-top: 20px;
+    border: 7px solid rgb(221, 221, 201);
+    margin-top: 20px;
+    
 }

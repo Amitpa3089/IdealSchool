@@ -7,8 +7,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="indexcss.css"/>
     
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+     
 </head>
-<body >
+<body>
+    <div id="header"></div>
     <div style="background-color: black; color: white;">
         <p style="padding: 10px;">9644200400  0731-2617600</p>
     </div>
@@ -37,7 +44,12 @@
 
     </div>
     <script src="index.js"></script>
-    
-    
+    <div id="footer"></div>
+    <script> 
+        $(function(){
+          $("#header").load("/commonheader.html"); 
+          $("#footer").load("/commonfooter.html"); 
+        });
+    </script>
 </body>
 </html>
