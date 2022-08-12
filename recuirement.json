@@ -1,0 +1,138 @@
+{
+  "postss": [
+    {
+      "areaOfSpecialization": "tumhari marzi",
+      "firstName": "Amit",
+      "lastName": "Patel",
+      "localAddress": "Ghar",
+      "permanentAddress": "gaon",
+      "dob": "2005-01-17",
+      "landlinePhone": "00",
+      "cellNo": "00",
+      "email": "abc@gmail.com",
+      "experience": "12 years",
+      "hobby": "watching reels",
+      "salary": "1000000000",
+      "id": 1
+    },
+    {
+      "areaOfSpecialization": "Developer",
+      "firstName": "Ravi",
+      "lastName": "khamla",
+      "localAddress": "kushwaha nagar",
+      "permanentAddress": "udaipur",
+      "dob": "0001-01-01",
+      "landlinePhone": "00000000000",
+      "cellNo": "0",
+      "email": "kuchhbinahi@gmail.com",
+      "experience": "5",
+      "hobby": "5",
+      "salary": "5",
+      "id": 2
+    },
+    {
+      "areaOfSpecialization": "addmission",
+      "firstName": "Ayush",
+      "lastName": "mukati",
+      "localAddress": "ujjain naka",
+      "permanentAddress": "pagalkhana",
+      "dob": "0011-11-11",
+      "landlinePhone": "000",
+      "cellNo": "000",
+      "email": "00000@gmail.com",
+      "experience": "2 years",
+      "hobby": "chess",
+      "salary": "1000000",
+      "id": 3
+    },
+    {
+      "areaOfSpecialization": "5",
+      "firstName": "5",
+      "lastName": "5",
+      "localAddress": "5",
+      "permanentAddress": "55",
+      "dob": "7773-07-07",
+      "landlinePhone": "3",
+      "cellNo": "3",
+      "email": "3@yyy5",
+      "experience": "5",
+      "hobby": "5",
+      "salary": "5",
+      "id": 4
+    },
+    {
+      "areaOfSpecialization": "5",
+      "firstName": "5",
+      "lastName": "5",
+      "localAddress": "5",
+      "permanentAddress": "5",
+      "dob": "0005-05-05",
+      "landlinePhone": "5",
+      "cellNo": "5",
+      "email": "5555@ffg5",
+      "experience": "5",
+      "hobby": "5",
+      "salary": "5",
+      "id": 5
+    },
+    {
+      "areaOfSpecialization": "2",
+      "firstName": "222",
+      "lastName": "2",
+      "localAddress": "22",
+      "permanentAddress": "2",
+      "dob": "0022-02-22",
+      "landlinePhone": "22",
+      "cellNo": "2",
+      "email": "gh3@dfhdjkdj333",
+      "experience": "3",
+      "hobby": "3",
+      "salary": "3",
+      "id": 6
+    },
+    {
+      "areaOfSpecialization": "8",
+      "firstName": "8",
+      "lastName": "8",
+      "localAddress": "8",
+      "permanentAddress": "8",
+      "dob": "0088-08-08",
+      "landlinePhone": "8",
+      "cellNo": "8",
+      "email": "8@i5",
+      "experience": "5",
+      "hobby": "5",
+      "salary": "5",
+      "id": 7
+    },
+    {
+      "areaOfSpecialization": "9",
+      "firstName": "9",
+      "lastName": "9",
+      "localAddress": "9",
+      "permanentAddress": "9",
+      "dob": "0099-09-09",
+      "landlinePhone": "99",
+      "cellNo": "9",
+      "email": "9@tdh2",
+      "experience": "2",
+      "hobby": "2",
+      "salary": "2",
+      "id": 8
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}

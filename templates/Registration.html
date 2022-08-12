@@ -22,7 +22,7 @@
              <h1>Registration</h1>
              <br>
              <br>
-             <form>
+             <form id="registration">
                 <div class="row">
                   <div class="col-md-6">
                     <label>Post Applied For*</label><br>
@@ -38,7 +38,7 @@
                   
                   <div class="col-md-6">
                     <label>Area of Specialization*</label><br>
-                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control" id="AreaOfSpecialization" required>
                   </div>
                 </div>
               
@@ -46,27 +46,27 @@
                 <div class="row">
                   <div class="col-md-6">
                     <label>First Name</label><br>
-                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control" id="FirstName" required>
                   </div>
                   <div class="col-md-6">
                     <label>Last Name</label><br>
-                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control" id="LastName" required>
                   </div>
                 </div>
               
                 <div class="col-md-12">
                     <label>Local Address*</label><br>
-                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control" id="LocalAddress" required>
                 </div>
               
                 <div class="col-md-12">
                     <label>Permanent Address*</label><br>
-                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control" id="PermanentAddress" required>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
                         <label>Date Of Birth*</label><br>
-                        <input type="date" class="form-control" required>
+                        <input type="date" class="form-control" id="DOB" required>
                     </div>
                   <div class="col-md-6">
                     <fieldset>
@@ -85,17 +85,17 @@
                 <div class="row">
                   <div class="col-md-6">
                     <label>Landline Phone</label><br>
-                    <input type="number" class="form-control" required>
+                    <input type="number" class="form-control" id="LandlinePhone" required>
                   </div>
                   <div class="col-md-6">
                     <label>Cell No*</label><br>
-                    <input type="number" class="form-control" required>
+                    <input type="number" class="form-control" id="CellNo" required>
                   </div>
                 </div>
               
                 <div class="col-md-12">
                     <label>Email Address*</label><br>
-                    <input type="email" class="form-control" required>
+                    <input type="email" class="form-control" id="Email" required>
                 </div>
               
                 <div class="col-md-6">
@@ -131,30 +131,30 @@
                         </tr>
                         <tr>
                             <td>1</td>
-                            <td><input required></td>
-                            <td><input required></td>
-                            <td><input required></td>
-                            <td><input required></td>
-                            <td><input required></td>
-                            <td><input required></td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td><input required></td>
-                            <td><input required></td>
-                            <td><input required></td>
-                            <td><input required></td>
-                            <td><input required></td>
-                            <td><input required></td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td><input required></td>
-                            <td><input required></td>
-                            <td><input required></td>
-                            <td><input required></td>
-                            <td><input required></td>
-                            <td><input required></td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
                         </tr>
                         <tr>
                             <td>4</td>
@@ -195,7 +195,7 @@
               
                 <div class="col-md-12">
                     <label>Total Year of Experience</label><br>
-                    <input type="text" class="form-control"required>
+                    <input type="text" class="form-control" id="Experience" required>
                 </div>
               
                 <div class="col-md-12">
@@ -212,17 +212,17 @@
               
                 <div class="col-md-12">
                     <label>Computer proficiency (Software known)</label><br>
-                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control"  required>
                 </div>
               
                 <div class="col-md-12">
                     <label>Hobbies</label><br>
-                    <input type="text" class="form-control" required>
+                    <input type="text" class="form-control" id="Hobby" required>
                 </div>
               
                 <div class="col-md-12">
                     <label>Salary Expected (Per Month)</label><br>
-                    <input type="number" class="form-control" required>
+                    <input type="number" class="form-control" id="Salary" required>
                 </div>
               
                 <div class="col-md-6">
@@ -237,8 +237,9 @@
               
               <p>I affirm that the information provided is true. I understand that furnishing any false information provided may result into management taking disciplinary action against me.
             </p>
-            <button type="submit" class="submit"> Send</button>
+            <button type="submit" class="submit" id="submit" onclick="setTimeout(myFunction, 3000);"> Send</button>
              </form>
+             
             
         </div>
         <div Id="content1" class="col-md-4">
@@ -248,11 +249,13 @@
         </div>
         </div>
         <div id="footer"></div>
+        <script src="/javascript/recuirement.js"></script>
         <script> 
             $(function(){
               $("#header").load("/commonheader.html"); 
               $("#footer").load("/commonfooter.html"); 
             });
         </script>
+
     </body>
     </html>
