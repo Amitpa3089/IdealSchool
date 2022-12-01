@@ -119,6 +119,21 @@
       "hobby": "2",
       "salary": "2",
       "id": 8
+    },
+    {
+      "areaOfSpecialization": "sdfs",
+      "firstName": "amit",
+      "lastName": "Patel",
+      "localAddress": "scheme no 51",
+      "permanentAddress": "as",
+      "dob": "2022-08-25",
+      "landlinePhone": "55555555555555555555",
+      "cellNo": "55555555555555",
+      "email": "gyugug@gmail.com",
+      "experience": "5555555555555555",
+      "hobby": "555555555555",
+      "salary": "55555555555555",
+      "id": 9
     }
   ],
   "posts": [
